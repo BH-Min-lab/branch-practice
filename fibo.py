@@ -12,9 +12,9 @@ def fibonacci_recursive(n):
         return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
 
 def main():
+
     n=20
     print(f"F({n}) = {fibonacci_recursive(n)}")
 
 if __name__ == "__main__":
     main()
-
